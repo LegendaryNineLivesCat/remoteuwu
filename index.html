@@ -20,7 +20,7 @@ There is no fork
                 beamdata.append('command', 'mrrrrrrr'+data)
                 
                 
-                fetch('https://www.floofuwu.com/cursedmachines', {method: 'POST', body: beamdata}).then((response)=>response.text()).then(response =>runresponse(response));
+                fetch('https://www.floofuwu.com/cursedmachines/index.php', {method: 'POST', body: beamdata}).then((response)=>response.text()).then(response =>runresponse(response));
                 
                 
             };
